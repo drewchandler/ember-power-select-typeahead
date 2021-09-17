@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-power-select-typeahead',
+  name: require('./package').name,
 
   contentFor: function(type, config) {
     var emberPowerSelect = this.addons.filter(function(addon) {

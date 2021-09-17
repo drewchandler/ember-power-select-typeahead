@@ -6,8 +6,10 @@ Naive implementation of a typeahead component on top of ember-power-select.
 Compatibility
 ------------------------------------------------------------------------------
 
-* 0.8+ requires Ember 3.11
-* Versions belog 0.7.4 work in 2.12+
+* Versions below 0.7.4 work in 2.12+
+* Ember.js v3.20 or above
+* Ember CLI v3.20 or above
+* Node.js v12 or above
 
 
 Installation

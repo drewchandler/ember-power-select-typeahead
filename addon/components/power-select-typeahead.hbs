@@ -6,7 +6,7 @@
   @ariaInvalid={{@ariaInvalid}}
   @ariaLabel={{@ariaLabel}}
   @ariaLabelledBy={{@ariaLabelledBy}}
-  @beforeOptionsComponent={{this.beforeOptionsComponent}}
+  @beforeOptionsComponent={{@beforeOptionsComponent}}
   @buildSelection={{@buildSelection}}
   @closeOnSelect={{@closeOnSelect}}
   @defaultHighlighted={{@defaultHighlighted}}
@@ -17,10 +17,10 @@
   @groupComponent={{@groupComponent}}
   @horizontalPosition={{@horizontalPosition}}
   @initiallyOpened={{@initiallyOpened}}
-  @loadingMessage={{this.loadingMessage}}
+  @loadingMessage={{@loadingMessage}}
   @matcher={{@matcher}}
   @matchTriggerWidth={{@matchTriggerWidth}}
-  @noMatchesMessage={{this.noMatchesMessage}}
+  @noMatchesMessage={{or @noMatchesMessage null}}
   @onBlur={{@onBlur}}
   @onChange={{@onChange}}
   @onClose={{@onClose}}
@@ -41,9 +41,9 @@
   @searchPlaceholder={{@searchPlaceholder}}
   @selected={{@selected}}
   @selectedItemComponent={{@selectedItemComponent}}
-  @tabindex={{this.tabindex}}
+  @tabindex={{or @tabindex -1}}
   @triggerClass={{this.concatenatedTriggerClasses}}
-  @triggerComponent={{this.triggerComponent}}
+  @triggerComponent={{or @triggerComponent "power-select-typeahead/trigger"}}
   @triggerId={{@triggerId}}
   @triggerRole="none"
   @verticalPosition={{@verticalPosition}}
